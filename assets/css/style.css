@@ -1,5 +1,16 @@
-/* style.css */
-body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
-.hero { min-height: 260px; }
-header a { color: inherit; }
-footer p { margin: 0; }
+:root{
+  --primary:#1e3a8a;
+  --accent:#06b6d4;
+  --card1:#fde68a;
+  --card2:#bfdbfe;
+  --card3:#bbf7d0;
+}
+body{background:#fafafa;font-family:Arial}
+.site-header{background:linear-gradient(90deg,var(--primary),#4f46e5);color:#fff}
+.brand-logo{background:rgba(255,255,255,.15);padding:5px 10px;border-radius:6px}
+.hero{background:linear-gradient(180deg,var(--accent),#60a5fa);padding:20px;color:#fff}
+.btn-hero{background:#0f172a;color:#fff}
+.card.colourful:nth-child(1){background:var(--card1)}
+.card.colourful:nth-child(2){background:var(--card2)}
+.card.colourful:nth-child(3){background:var(--card3)}
+.site-footer{background:#0b1220;color:#fff;padding:20px}

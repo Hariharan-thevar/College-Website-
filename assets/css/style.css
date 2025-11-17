@@ -1,1 +1,5 @@
-
+/* style.css */
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.hero { min-height: 260px; }
+header a { color: inherit; }
+footer p { margin: 0; }
